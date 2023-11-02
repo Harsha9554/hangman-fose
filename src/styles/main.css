@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 body {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #BEADFA; 
-    color: #000; 
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #a5f3fc; 
+    color: #164e63; 
     margin: 0;
     padding: 0;
 }
@@ -12,17 +14,17 @@ h1 {
     font-weight: bold; 
     text-align: center; 
     margin-bottom: 20px; 
-    color: #FFF8C9 ;
+    color: #164e63;
 }
 
 #wordDisplay {
     font-size: 5rem;
-    color: #DFCCFB;
+    color: #164e63;
     margin-bottom: 20px;
 }
 
 #gameMessage {
-    color: #FFF8C9;
+    color: #164e63;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -31,10 +33,10 @@ h1 {
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
-    background-color: #D0BFFF; 
+    background-color: #0e7490; 
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .letterBtn {
@@ -44,8 +46,8 @@ h1 {
     margin: 10px;
     border: none;
     border-radius: 50%;
-    background-color: #DFCCFB;
-    color: #000; 
+    background-color: #a5f3fc;
+    color: #0e7490; 
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -55,13 +57,13 @@ h1 {
 }
 
 .wrong {
-    background-color: #FFF8C9; 
-    color: #000; /* Black */
+    background-color: #fda4af; 
+    color: #be123c; /* Black */
 }
 
 .correct {
-    background-color: #BEADFA; 
-    color: #000; 
+    background-color: #86efac; 
+    color: #15803d; 
 }
 
 #hangmanImage {
@@ -76,7 +78,7 @@ h1 {
     width: 10px;
     height: 150px;
     position: absolute;
-    background-color: #F2F7A1;
+    background-color: #164e63;
     left: 15%;
     bottom: 10px;
 }
@@ -86,7 +88,7 @@ h1 {
     height: 10px;
     position: absolute;
     bottom: 0;
-    background-color: #F2F7A1;
+    background-color: #164e63;
 }
 
 .beam {
@@ -94,14 +96,14 @@ h1 {
     height: 10px;
     position: absolute;
     left: 15%;
-    background-color: #F2F7A1;
+    background-color: #164e63;
 }
 
 .rope {
     width: 5px;
     height: 15px;
     position: absolute;
-    background-color: #F2F7A1;
+    background-color: #164e63;
     left: 47.5%;
     top: 10px;
 }
@@ -110,7 +112,7 @@ h1 {
     width: 30px;
     height: 30px;
     background-color: transparent;
-    border: 2px solid #F2F7A1;
+    border: 2px solid #164e63;
     border-radius: 50%;
     position: absolute;
     top: 25px;
@@ -120,7 +122,7 @@ h1 {
 .body {
     width: 2px;
     height: 50px;
-    background-color: #F2F7A1;
+    background-color: #164e63;
     position: absolute;
     top: 57px;
     left: 48%;
@@ -133,7 +135,7 @@ h1 {
 .left-arm, .right-arm, .left-leg, .right-leg {
     width: 2px;
     height: 30px;
-    background-color: #F2F7A1;
+    background-color: #164e63;
 }
 
 .left-arm {
@@ -165,9 +167,9 @@ h1 {
 }
 
 .newGame {
-    background-color: #F2F7A1;
+    background-color: #0e7490;
     border: none; 
-    color: black; 
+    color: #a5f3fc; 
     padding: 15px 32px;
     text-align: center; 
     text-decoration: none; 
